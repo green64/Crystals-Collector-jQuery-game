@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Risque" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <title>Crystals Collector Game</title>
 </head>
+
 <body>
-    <h1>jQuery game</h1>
+    <div id="crystals"></div>
+    <!-- here's where my current layout starts  -->
+    <div class="container mt-3 border border-secondary rounded">
+        <div class="row p-3" id="grad">
+            <div class="col-md-12 text-center">
+                <h1 class="title">Crystals Collector</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 side py-1 text-center">
+                <h2 class="white">Wins</h2>
+                <br>
+                <h2 id="winTotal" class="white"></h2>
+            </div>
+            <div class="col-md-3 p-2 text-center border border-success">
+                <h2 class="magic">Magic Number</h2>
+                <br>
+                <span class="display game-numbers"></span>
+            </div>
+            <div class="col-md-3 p-2 text-center border border-success">
+                <h2 class="guess">Your Score</h2>
+                <br>
+                <span class="score game-numbers"></span>
+            </div>
+            <div class="col-md-3 side py-1 text-center">
+                <h2 class="white">Losses</h2>
+                <br>
+                <h2 id="loseTotal" class="white"></h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Note that this div - crystals - is now empty. We will fill it dynamically. Back these out once that's set up -->
+            <div class="col-md-12 my-3 p-3 bg-white text-center crystals">
+                <img src="assets/images/crystal-1.jpg" id="aqua" class="crystal-button img-fluid rounded mr-3 mt-3" alt="Responsive image">
+                <img src="assets/images/crystal-3.jpg" id="pink" class="crystal-button img-fluid rounded mr-3 mt-3" alt="Responsive image">
+                <img src="assets/images/crystal-2.jpg" id="blue" class="crystal-button img-fluid rounded mr-3 mt-3" alt="Responsive image">
+                <img src="assets/images/crystal-4.jpg" id="red" class="crystal-button img-fluid rounded mr-3 mt-3" alt="Responsive image">
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-12 p-3 bg-white text-center'>
+                <button id="reset" class="button-look mx-1 mt-1 rounded border" style="background-color: #20c997">reset</button>
+            </div>
+        </div>
+        <div class="row side">
+            <div class="col-md-3 side"></div>
+            <div class="col-md-6 p-3 text-center lightbox how-to-play">
+                <div>
+                    <p class="how-to-play">These four crystals have magical properties! Click them to add to your score.
+                        Match the Magic Number to win! Don't go over. If you do, you lose. 
+                        To play again, click reset. Have fun collecting crystals!</p>
+                </div>
+            </div>
+            <div class="col-md-3 side "></div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js "></script>
+    <script src="assets/javascript/game.js "></script>
 </body>
+
 </html>

@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+             url("https://fonts.googleapis.com/css?family=Raleway|Risque") format();
+}
+.title {
+    font-family: 'Risque', cursive;
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.guess {
+    font-family: 'Risque', cursive;
+    color: blue;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.magic {
+    font-family: 'Risque', cursive;
+    color: #20c997;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.game-numbers {
+    font-family: 'Risque', cursive;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+h2 {
+    font-family: 'Risque', cursive;
+    color: red;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.white {
+    font-family: 'Risque', cursive;
+    color: white;
+    font-size: 36px;
+}
+
+p.rules {
+    font-family: 'Raleway', sans - serif;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.button-look {
+    font-family: 'Raleway', sans - serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+.how-to-play {
+    font-family: 'Raleway', sans - serif;
+    color: white;
+    font-size: 18px;
+}
+
+.side{
+    background-color: purple;
+}
+
+#grad {
+    background: linear-gradient(to top right, purple, rgb(250, 155, 221));
+}
