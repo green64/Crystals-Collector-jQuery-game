@@ -1,7 +1,9 @@
 # Crystals Collector
 [Crystals Collector](https://green64.github.io/week-4-game/)
 
-Guessing games. Amirite? Sure, they're common projects for beginners. But I still personalized mine as much as I had time to.
+Guessing games. Amirite? Sure, they're common projects for beginners. But in my case it was a good opportunity to incorporate what I've already learned and venture into jQuery.
+
+In my game, the code generates a random number, aka the Magic Number. Every round also generates 4 random crystal values. By clicking those, you add to your score and try to match the Magic Number. The game keeps score, and you use the reset button to play again. 
 
 In addition to HTML, CSS and JavaScript, I created my game using:
 
